@@ -27,6 +27,4 @@ jobs:
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          PRICE_THRESHOLD: ${{ secrets.PRICE_THRESHOLD }}
         run: python check_tickets.py
